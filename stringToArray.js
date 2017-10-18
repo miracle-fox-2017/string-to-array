@@ -1,13 +1,12 @@
 function stringToArray(str){
   var arrStr = str.split(',');
-  // console.log(arrStr.length)
+  // console.log(arrStr)
   var arr = []
-  for(var i = 0; i < 1; i++){
+  // for(var i = 0; i < 1; i++){
     // console.log(arrStr[i])
-    for(var j = 0; j < arrStr.length; j++){
-      // console.log(arrStr[j])
-      arr.push(arrStr[j].split(''))
-    }
+  for(var j = 0; j < arrStr.length; j++){
+    arr.push(arrStr[j].split(''))
+    // }
   }
   return arr
 }
